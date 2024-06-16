@@ -1,0 +1,158 @@
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #f7f7f7;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+}
+
+.balance{
+    position: relative;
+    right: 110px;
+    padding-top: 20px;
+}
+
+.money{
+    position: relative;
+    right: 130px;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+.in_ex{
+    
+    display: inline-table;
+    background-color: #fff;
+    /* width: 200px;
+    height: 100px; */
+    box-shadow: 1px 1px 1px 1px rgb(216, 215, 215);
+    font-size: 15px;
+    font: weight 200%;;
+
+}
+
+.money-plus{
+    color: rgb(63, 192, 127);
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+.money-minus{
+    color: rgb(161, 21, 21);
+    font-size: 30px;
+    font-weight: lighter;
+
+}
+
+.vl{
+    border-left: 2px solid rgb(216, 215, 215);
+    height: 25px;
+    padding-left: 50px;
+}
+
+.history{
+    position: relative;
+    right: 140px;
+    padding-bottom: 0%;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 40px;
+}
+
+.list li {
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.list li.plus {
+    border-right: 5px solid #2ecc71;
+}
+
+.list li.minus {
+    border-right: 5px solid #c0392b;
+}
+
+.delete-btn {
+    cursor: pointer;
+    background-color: #e74c3c;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 2px 5px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.list li:hover .delete-btn {
+    opacity: 1;
+}
+
+.transaction{
+    position: relative;
+    right: 80px;
+}
+
+.text{
+    padding-top: 20px;
+    position: relative;
+    right: 155px;
+    font-weight: lighter;
+}
+
+.amount{
+    position: relative;
+    right: 140px;
+    font-weight: lighter;
+}
+
+.negative{
+    position: relative;
+    right: 32px;
+    font-weight: lighter;
+}
+
+.hl{
+    width: 335px;
+    padding-top: 0%;
+}
+
+.box{
+    width: 300px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: gray;
+}
+
+.btn{
+    cursor: pointer;
+    width: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: rgb(153, 137, 164);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px #ccc;
+    border-radius: 4px;
+    background-color: rgb(170, 122, 218);
+}
